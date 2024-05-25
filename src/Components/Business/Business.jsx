@@ -2,9 +2,9 @@ import React from 'react'
 import "./Business.css"
 import OurStory4 from "../../assets/OurStory4.png"
 
-const Moto = () => {
+const Business = () => {
   return (
-    <div className="business">
+    <div id='business' className="business">
         <div className="business-text">
         <h1>JFor businesses that care deeply about sustainability</h1>
             <p>Do you run a business that is committed to sustainability in every aspect of your work?</p>

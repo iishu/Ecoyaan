@@ -4,7 +4,7 @@ import Impact from "../../assets/Impact.png"
 
 const Moto = () => {
   return (
-    <div className="moto">
+    <div id="moto" className="moto">
         <div className="moto-text">
         <h1>Join our community in creating a more sustainable future for everyone</h1>
             <p>At Ecoyaan, we are more than just a platform. Our vision is to build an eco-conscious community for people and products.</p>

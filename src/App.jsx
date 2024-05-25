@@ -3,13 +3,18 @@ import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
 import Moto from "./Components/Moto/Moto"
 import Business from "./Components/Business/Business"
- const App = () => {
+import Contact from './Components/Contact/Contact'
+import About from "./Components/About/About"
+const App = () => {
    return (
      <div>
       <Navbar/>
       <Hero/>
+      <About/>
       <Moto/>
       <Business/>
+      <Contact/>
+       
      </div>
    )
  }

@@ -1,0 +1,34 @@
+.about-title {
+    width: 100%;
+    min-height:100vh;
+    background: url('../../assets/follow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(46, 37, 37);
+    display: block;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+p, h1{
+    color:black;
+    
+}
+.about-para{
+    text-align:center;
+    max-width: 500px;
+    
+
+}
+.about-title h1{
+    font-size:40px;
+    font-weight:400;
+
+}
+.about-para p{
+    max-width: 700px;
+    margin:20px 1px 20px;
+    font-size:20px;
+    line-height: 1.4;
+}

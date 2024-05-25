@@ -19,6 +19,9 @@
     width:700px;
     height:auto;
  }
+ .moto-image img:hover{
+    transform:scale(1.05)
+ }
  @media (max-width: 768px) {
     .moto {
       flex-direction: column; /* Stack items vertically on smaller screens */

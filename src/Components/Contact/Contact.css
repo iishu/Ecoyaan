@@ -1,0 +1,100 @@
+.contact {
+    background-color: #aba4a4;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.contact-top {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.contact-section h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    margin-bottom: 8px;
+}
+
+.contact-section ul li a {
+    color: #555;
+    text-decoration: none;
+}
+
+.contact-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.subscribe-form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: #218838;
+}
+
+.subscribe-form p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.contact-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.contact-address,
+.contact-legal {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.contact-address h4,
+.contact-legal h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-address p,
+.contact-legal p {
+    margin: 0;
+    color: #555;
+}
